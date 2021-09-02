@@ -1,0 +1,1 @@
+docker build -t asf-api_publisher_local -f Dockerfilelocal .

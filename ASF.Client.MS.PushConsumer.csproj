@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Common\**" />
+    <EmbeddedResource Remove="Common\**" />
+    <None Remove="Common\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Confluent.Kafka" Version="1.7.0" />
+    <PackageReference Include="Diffusion.Client" Version="6.6.1" />
+    <PackageReference Include="MongoDB.Driver" Version="2.12.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="Common\ASF.Core.Common.Cache\ASF.Core.Common.Cache.csproj" />
+    <ProjectReference Include="Common\ASF.Core.Common.DB\ASF.Core.Common.DB.csproj" />
+    <ProjectReference Include="Common\ASF.Core.Common.Helpers\ASF.Core.Common.Helpers.csproj" />
+    <ProjectReference Include="Common\ASF.Core.Common.Messages\ASF.Core.Common.Messages.csproj" />
+    <ProjectReference Include="Common\ASF.Core.Common.MLB\ASF.Core.Common.MLB.vbproj" />
+    <ProjectReference Include="Common\ASF.Core.Common.MongoLogger\ASF.Core.Common.MongoLogger.csproj" />
+    <ProjectReference Include="Common\ASF.Core.Common.SecretsManager\ASF.Core.Common.SecretsManager.csproj" />
+    <ProjectReference Include="Common\ASF.Core.Common.Tools\ASF.Core.Common.Tools.csproj" />
+    <ProjectReference Include="Common\ASF.Core.Common\ASF.Core.Common.csproj" />
+  </ItemGroup>
+
+</Project>

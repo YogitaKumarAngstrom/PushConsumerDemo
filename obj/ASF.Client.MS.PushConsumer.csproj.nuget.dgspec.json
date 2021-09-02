@@ -1,0 +1,704 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\ASF.Client.MS.PushConsumer\\ASF.Client.MS.PushConsumer.csproj": {}
+  },
+  "projects": {
+    "C:\\ASF.Client.MS.PushConsumer\\ASF.Client.MS.PushConsumer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\ASF.Client.MS.PushConsumer\\ASF.Client.MS.PushConsumer.csproj",
+        "projectName": "ASF.Client.MS.PushConsumer",
+        "projectPath": "C:\\ASF.Client.MS.PushConsumer\\ASF.Client.MS.PushConsumer.csproj",
+        "packagesPath": "C:\\Users\\Yogita\\.nuget\\packages\\",
+        "outputPath": "C:\\ASF.Client.MS.PushConsumer\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Yogita\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\ASF.Client.MS.PushConsumer\\Common\\ASF.Core.Common.Cache\\ASF.Core.Common.Cache.csproj": {
+                "projectPath": "C:\\ASF.Client.MS.PushConsumer\\Common\\ASF.Core.Common.Cache\\ASF.Core.Common.Cache.csproj"
+              },
+              "C:\\ASF.Client.MS.PushConsumer\\Common\\ASF.Core.Common.DB\\ASF.Core.Common.DB.csproj": {
+                "projectPath": "C:\\ASF.Client.MS.PushConsumer\\Common\\ASF.Core.Common.DB\\ASF.Core.Common.DB.csproj"
+              },
+              "C:\\ASF.Client.MS.PushConsumer\\Common\\ASF.Core.Common.Helpers\\ASF.Core.Common.Helpers.csproj": {
+                "projectPath": "C:\\ASF.Client.MS.PushConsumer\\Common\\ASF.Core.Common.Helpers\\ASF.Core.Common.Helpers.csproj"
+              },
+              "C:\\ASF.Client.MS.PushConsumer\\Common\\ASF.Core.Common.Messages\\ASF.Core.Common.Messages.csproj": {
+                "projectPath": "C:\\ASF.Client.MS.PushConsumer\\Common\\ASF.Core.Common.Messages\\ASF.Core.Common.Messages.csproj"
+              },
+              "C:\\ASF.Client.MS.PushConsumer\\Common\\ASF.Core.Common.MLB\\ASF.Core.Common.MLB.vbproj": {
+                "projectPath": "C:\\ASF.Client.MS.PushConsumer\\Common\\ASF.Core.Common.MLB\\ASF.Core.Common.MLB.vbproj"
+              },
+              "C:\\ASF.Client.MS.PushConsumer\\Common\\ASF.Core.Common.MongoLogger\\ASF.Core.Common.MongoLogger.csproj": {
+                "projectPath": "C:\\ASF.Client.MS.PushConsumer\\Common\\ASF.Core.Common.MongoLogger\\ASF.Core.Common.MongoLogger.csproj"
+              },
+              "C:\\ASF.Client.MS.PushConsumer\\Common\\ASF.Core.Common.SecretsManager\\ASF.Core.Common.SecretsManager.csproj": {
+                "projectPath": "C:\\ASF.Client.MS.PushConsumer\\Common\\ASF.Core.Common.SecretsManager\\ASF.Core.Common.SecretsManager.csproj"
+              },
+              "C:\\ASF.Client.MS.PushConsumer\\Common\\ASF.Core.Common.Tools\\ASF.Core.Common.Tools.csproj": {
+                "projectPath": "C:\\ASF.Client.MS.PushConsumer\\Common\\ASF.Core.Common.Tools\\ASF.Core.Common.Tools.csproj"
+              },
+              "C:\\ASF.Client.MS.PushConsumer\\Common\\ASF.Core.Common\\ASF.Core.Common.csproj": {
+                "projectPath": "C:\\ASF.Client.MS.PushConsumer\\Common\\ASF.Core.Common\\ASF.Core.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Confluent.Kafka": {
+              "target": "Package",
+              "version": "[1.7.0, )"
+            },
+            "Diffusion.Client": {
+              "target": "Package",
+              "version": "[6.6.1, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.12.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\ASF.Client.MS.PushConsumer\\Common\\ASF.Core.Common.Cache\\ASF.Core.Common.Cache.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\ASF.Client.MS.PushConsumer\\Common\\ASF.Core.Common.Cache\\ASF.Core.Common.Cache.csproj",
+        "projectName": "ASF.Core.Common.Cache",
+        "projectPath": "C:\\ASF.Client.MS.PushConsumer\\Common\\ASF.Core.Common.Cache\\ASF.Core.Common.Cache.csproj",
+        "packagesPath": "C:\\Users\\Yogita\\.nuget\\packages\\",
+        "outputPath": "C:\\ASF.Client.MS.PushConsumer\\Common\\ASF.Core.Common.Cache\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Yogita\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "C:\\ASF.Client.MS.PushConsumer\\Common\\ASF.Core.Common.Tools\\ASF.Core.Common.Tools.csproj": {
+                "projectPath": "C:\\ASF.Client.MS.PushConsumer\\Common\\ASF.Core.Common.Tools\\ASF.Core.Common.Tools.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "NReJSON": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            },
+            "RedLock.net": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "StackExchange.Redis": {
+              "target": "Package",
+              "version": "[2.2.62, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\ASF.Client.MS.PushConsumer\\Common\\ASF.Core.Common.DB\\ASF.Core.Common.DB.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\ASF.Client.MS.PushConsumer\\Common\\ASF.Core.Common.DB\\ASF.Core.Common.DB.csproj",
+        "projectName": "ASF.Core.Common.DB",
+        "projectPath": "C:\\ASF.Client.MS.PushConsumer\\Common\\ASF.Core.Common.DB\\ASF.Core.Common.DB.csproj",
+        "packagesPath": "C:\\Users\\Yogita\\.nuget\\packages\\",
+        "outputPath": "C:\\ASF.Client.MS.PushConsumer\\Common\\ASF.Core.Common.DB\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Yogita\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "C:\\ASF.Client.MS.PushConsumer\\Common\\ASF.Core.Common.SecretsManager\\ASF.Core.Common.SecretsManager.csproj": {
+                "projectPath": "C:\\ASF.Client.MS.PushConsumer\\Common\\ASF.Core.Common.SecretsManager\\ASF.Core.Common.SecretsManager.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.90, )"
+            },
+            "Google.Protobuf": {
+              "target": "Package",
+              "version": "[3.17.3, )"
+            },
+            "Microsoft.CSharp": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "Microsoft.VisualBasic": {
+              "target": "Package",
+              "version": "[10.3.0, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.25, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "System.Data.DataSetExtensions": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "System.Data.Odbc": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "System.Data.OleDb": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            },
+            "System.Management": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "log4net": {
+              "target": "Package",
+              "version": "[2.0.12, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\ASF.Client.MS.PushConsumer\\Common\\ASF.Core.Common.Helpers\\ASF.Core.Common.Helpers.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\ASF.Client.MS.PushConsumer\\Common\\ASF.Core.Common.Helpers\\ASF.Core.Common.Helpers.csproj",
+        "projectName": "ASF.Core.Common.Helpers",
+        "projectPath": "C:\\ASF.Client.MS.PushConsumer\\Common\\ASF.Core.Common.Helpers\\ASF.Core.Common.Helpers.csproj",
+        "packagesPath": "C:\\Users\\Yogita\\.nuget\\packages\\",
+        "outputPath": "C:\\ASF.Client.MS.PushConsumer\\Common\\ASF.Core.Common.Helpers\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Yogita\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "C:\\ASF.Client.MS.PushConsumer\\Common\\ASF.Core.Common.Messages\\ASF.Core.Common.Messages.csproj": {
+                "projectPath": "C:\\ASF.Client.MS.PushConsumer\\Common\\ASF.Core.Common.Messages\\ASF.Core.Common.Messages.csproj"
+              },
+              "C:\\ASF.Client.MS.PushConsumer\\Common\\ASF.Core.Common\\ASF.Core.Common.csproj": {
+                "projectPath": "C:\\ASF.Client.MS.PushConsumer\\Common\\ASF.Core.Common\\ASF.Core.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "protobuf-net": {
+              "target": "Package",
+              "version": "[3.0.101, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\ASF.Client.MS.PushConsumer\\Common\\ASF.Core.Common.Messages\\ASF.Core.Common.Messages.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\ASF.Client.MS.PushConsumer\\Common\\ASF.Core.Common.Messages\\ASF.Core.Common.Messages.csproj",
+        "projectName": "ASF.Core.Common.Messages",
+        "projectPath": "C:\\ASF.Client.MS.PushConsumer\\Common\\ASF.Core.Common.Messages\\ASF.Core.Common.Messages.csproj",
+        "packagesPath": "C:\\Users\\Yogita\\.nuget\\packages\\",
+        "outputPath": "C:\\ASF.Client.MS.PushConsumer\\Common\\ASF.Core.Common.Messages\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Yogita\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "C:\\ASF.Client.MS.PushConsumer\\Common\\ASF.Core.Common\\ASF.Core.Common.csproj": {
+                "projectPath": "C:\\ASF.Client.MS.PushConsumer\\Common\\ASF.Core.Common\\ASF.Core.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "protobuf-net": {
+              "target": "Package",
+              "version": "[3.0.101, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\ASF.Client.MS.PushConsumer\\Common\\ASF.Core.Common.MLB\\ASF.Core.Common.MLB.vbproj": {
+      "restore": {
+        "projectUniqueName": "C:\\ASF.Client.MS.PushConsumer\\Common\\ASF.Core.Common.MLB\\ASF.Core.Common.MLB.vbproj",
+        "projectName": "ASF.Core.Common.MLB",
+        "projectPath": "C:\\ASF.Client.MS.PushConsumer\\Common\\ASF.Core.Common.MLB\\ASF.Core.Common.MLB.vbproj"
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    },
+    "C:\\ASF.Client.MS.PushConsumer\\Common\\ASF.Core.Common.MongoLogger\\ASF.Core.Common.MongoLogger.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\ASF.Client.MS.PushConsumer\\Common\\ASF.Core.Common.MongoLogger\\ASF.Core.Common.MongoLogger.csproj",
+        "projectName": "ASF.Core.Common.MongoLogger",
+        "projectPath": "C:\\ASF.Client.MS.PushConsumer\\Common\\ASF.Core.Common.MongoLogger\\ASF.Core.Common.MongoLogger.csproj",
+        "packagesPath": "C:\\Users\\Yogita\\.nuget\\packages\\",
+        "outputPath": "C:\\ASF.Client.MS.PushConsumer\\Common\\ASF.Core.Common.MongoLogger\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Yogita\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.12.4, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\ASF.Client.MS.PushConsumer\\Common\\ASF.Core.Common.SecretsManager\\ASF.Core.Common.SecretsManager.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\ASF.Client.MS.PushConsumer\\Common\\ASF.Core.Common.SecretsManager\\ASF.Core.Common.SecretsManager.csproj",
+        "projectName": "ASF.Core.Common.SecretsManager",
+        "projectPath": "C:\\ASF.Client.MS.PushConsumer\\Common\\ASF.Core.Common.SecretsManager\\ASF.Core.Common.SecretsManager.csproj",
+        "packagesPath": "C:\\Users\\Yogita\\.nuget\\packages\\",
+        "outputPath": "C:\\ASF.Client.MS.PushConsumer\\Common\\ASF.Core.Common.SecretsManager\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Yogita\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "C:\\ASF.Client.MS.PushConsumer\\Common\\ASF.Core.Common\\ASF.Core.Common.csproj": {
+                "projectPath": "C:\\ASF.Client.MS.PushConsumer\\Common\\ASF.Core.Common\\ASF.Core.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "AWSSDK.SecretsManager": {
+              "target": "Package",
+              "version": "[3.7.0.36, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\ASF.Client.MS.PushConsumer\\Common\\ASF.Core.Common.Tools\\ASF.Core.Common.Tools.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\ASF.Client.MS.PushConsumer\\Common\\ASF.Core.Common.Tools\\ASF.Core.Common.Tools.csproj",
+        "projectName": "ASF.Core.Common.Tools",
+        "projectPath": "C:\\ASF.Client.MS.PushConsumer\\Common\\ASF.Core.Common.Tools\\ASF.Core.Common.Tools.csproj",
+        "packagesPath": "C:\\Users\\Yogita\\.nuget\\packages\\",
+        "outputPath": "C:\\ASF.Client.MS.PushConsumer\\Common\\ASF.Core.Common.Tools\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Yogita\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "C:\\ASF.Client.MS.PushConsumer\\Common\\ASF.Core.Common.DB\\ASF.Core.Common.DB.csproj": {
+                "projectPath": "C:\\ASF.Client.MS.PushConsumer\\Common\\ASF.Core.Common.DB\\ASF.Core.Common.DB.csproj"
+              },
+              "C:\\ASF.Client.MS.PushConsumer\\Common\\ASF.Core.Common.SecretsManager\\ASF.Core.Common.SecretsManager.csproj": {
+                "projectPath": "C:\\ASF.Client.MS.PushConsumer\\Common\\ASF.Core.Common.SecretsManager\\ASF.Core.Common.SecretsManager.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "System.Data.DataSetExtensions": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "log4net": {
+              "target": "Package",
+              "version": "[2.0.12, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\ASF.Client.MS.PushConsumer\\Common\\ASF.Core.Common\\ASF.Core.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\ASF.Client.MS.PushConsumer\\Common\\ASF.Core.Common\\ASF.Core.Common.csproj",
+        "projectName": "ASF.Core.Common",
+        "projectPath": "C:\\ASF.Client.MS.PushConsumer\\Common\\ASF.Core.Common\\ASF.Core.Common.csproj",
+        "packagesPath": "C:\\Users\\Yogita\\.nuget\\packages\\",
+        "outputPath": "C:\\ASF.Client.MS.PushConsumer\\Common\\ASF.Core.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Yogita\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

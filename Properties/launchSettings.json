@@ -1,0 +1,14 @@
+{
+  "profiles": {
+    "ASF.Client.MS.PushConsumer": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "Environment": "dev",
+        "TransmissionAuditing": "true",
+        "Debugging": "true",
+        "PushInstance": "master",
+        "PushUser": "publisher"
+      }
+    }
+  }
+}
